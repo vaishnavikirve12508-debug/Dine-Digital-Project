@@ -1,0 +1,23 @@
+restaurant-backend/
+│── package.json
+│── server.js
+│── config/
+│   └── db.js
+│── models/
+│   ├── User.js
+│   ├── Table.js
+│   ├── MenuItem.js
+│   ├── Order.js
+│   ├── OrderItem.js
+│   └── Bill.js
+│── routes/
+│   ├── auth.js
+│   ├── users.js
+│   ├── menu.js
+│   ├── orders.js
+│   └── bills.js
+│── middleware/
+│   ├── authMiddleware.js
+│   └── roleMiddleware.js
+│── utils/
+│   └── errorHandler.js
